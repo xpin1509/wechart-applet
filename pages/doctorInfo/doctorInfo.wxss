@@ -1,0 +1,316 @@
+.technolog-box{
+	border-bottom:1px solid #cccccc;
+}
+.hr{
+	background:#f1f1f1;
+	height:22rpx;
+}
+.technolog-title{
+	padding:0 24rpx;
+	color:#666;
+	font:32rpx/88rpx "Microsoft YaHei";
+}
+.technolog-title .pull-right{
+	transition:all 0.5s ease; 
+}
+.technolog-process{
+    font-size: 30rpx;
+    color: #666;
+    position: relative;
+    font-family:"Microsoft YaHei";
+}
+.technolog-process:after {
+    content: '';
+    width: 1px;
+    background: #1a89d9;
+    height: 350rpx;
+    position: absolute;
+    left: 83rpx;
+    top: 60rpx;
+    z-index: 1;
+}
+.technolog-process .technolog-processes {
+    margin: 30rpx 24rpx;
+}
+.technolog-process .technolog-num {
+    width: 120rpx;
+    line-height: 90rpx;
+    float: left;
+    text-align: center;
+}
+.technolog-process i {
+    font-style: normal;
+    display: inline-block;
+    width: 60rpx;
+    line-height: 60rpx;
+    color: #1a89d9;
+    border: 1px solid #1a89d9;
+    border-radius: 50rpx;
+    background: #fff;
+    z-index: 10;
+    position: relative;
+}
+.technolog-process .technolog-icon {
+    float: left;
+    width: 86rpx;
+    height: 90rpx;
+    vertical-align: middle;
+    background-image: url("http://www.ortholink.cn/include/mt/images/index/@2x_8.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.technolog-process .technolog-submit .technolog-icon {
+    background-position: left 0;
+}
+.technolog-process .technolog-examine .technolog-icon {
+    background-position: left -105rpx;
+}
+.technolog-process .technolog-sucess .technolog-icon {
+    background-position: left -205rpx;
+}
+.technolog-process .technolog-login .technolog-icon {
+    background-position: left -300rpx;
+}
+
+.technolog-process .technolog-abstract {
+    display: inline-block;
+    line-height: 90rpx;
+    margin-left: 45rpx;
+}
+.technolog-process .technolog-abstract view{
+    line-height:  45rpx;
+}
+.foot-info{
+	padding:20rpx 20rpx;
+	font-size:28rpx;
+	line-height:46rpx;
+	background:#dadada;
+	color:#666666;
+	font-family:"Microsoft YaHei";
+}
+.copy-right{
+	padding-top: 3 rpx;
+    padding-bottom: 3 rpx;
+    background-color: #4d4d4d;
+    color: #fff;
+    text-align: center;
+    font-size:24rpx;
+	line-height:46rpx;
+}
+.rotate{
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+}
+.auth-info{
+	padding:0 24rpx;
+	color:#666;
+	font-famliy:"Microsoft YaHei";
+}
+.auth-title text{
+	margin-top:15rpx;
+	display:block;
+	font:32rpx/58rpx "Microsoft YaHei";
+}
+.auth-title span{
+	font-size:24rpx;
+	color:#999999;
+}
+.form-content{
+	padding: 40rpx 0;
+	font-size:32rpx;
+	color:#4e4e4e;
+	line-height:78rpx;
+}
+.form-title{
+	overflow:hidden;
+}
+.form-content .form-title span{
+	display:block;
+	width:340rpx;
+	line-height:88rpx;
+	text-align:center;
+	background:#bfbfbf;
+	color:#fff
+}
+.form-content .form-active-title{
+	background:#248bd6 !important;
+}
+.form-list,.correct-list{
+	padding:20px 0
+}
+.form-list .form-group{
+	margin-top:34rpx;
+	padding-left:70rpx;
+	overflow:hidden
+}
+.form-list .form-group .short-label{
+	width:200rpx;
+	display:inline-block;
+	float:left
+}
+.form-list .form-group .middle-label{
+	width:300rpx;
+	display:inline-block;
+	float:left
+}
+.form-list .form-group .long-label{
+	width:450rpx;
+	display:inline-block;
+	float:left
+}
+.form-list .form-group .long-input,.form-list .form-group picker{
+	width:350rpx;
+	height:76rpx;
+	padding:0 10rpx;
+	border:1px solid #bfbfbf;
+	display:inline-block;
+	float:left
+}
+.form-list .form-group .short-input{
+	width:160rpx;
+	height:76rpx;
+	padding:0 10rpx;
+	margin-right:10px;
+	border:1px solid #bfbfbf;
+	display:inline-block;
+	float:left;
+	text-align:center
+}
+.form-list .form-group .radio-group{
+	width:370rpx;
+	height:76rpx;
+	display:inline-block;
+	float:left
+}
+
+.form-list .form-group .radio-group .radio{
+	width:50%;
+	display:inline-block
+}
+.form-list .form-group checkbox{
+	line-height:78rpx;
+}
+.next-page{
+	font-size:36rpx;
+	line-height:88rpx;
+	text-align:center;
+	border-radius:18rpx;
+	margin:40rpx auto 80rpx;
+	background:#248bd6;
+	color:#fff;
+}
+.correct-list .check-group{
+	margin-top:34rpx;
+	padding-left:28rpx;
+	overflow:hidden
+}
+.correct-list .check-group .cor-label{
+	width:200rpx;
+	diplay:inline-block;
+	float:left;
+}
+.correct-list .check-group checkbox-group{
+	width:470rpx;
+	diplay:inline-block;
+	float:left;
+}
+	
+.correct-list .check-group .checkbox{
+	width:50%;
+	diplay: block;
+	float:left;
+}
+.correct-list .check-group .agreement{
+	display:block;
+	color:#196aa6;
+	line-height:1;
+	font-size:30rpx
+}
+.btn-group{
+	margin-top:20px;
+	text-align:center;
+	overflow:hidden
+}
+.btn-group .pre-page{
+	width:206rpx;
+	color:#1a89d9;
+	border:1px solid #1a89d9;
+	border-radius:5px;
+	float:left
+}
+.btn-group .submit-btn{
+	width:480rpx;
+	color:#fff;
+	background:#1a89d9;
+	border-radius:5px;
+	float:right
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

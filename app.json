@@ -1,0 +1,15 @@
+{
+  
+  "pages":[
+    "pages/index/index",
+    "pages/matches/matches",
+    "pages/data/data",
+    "pages/playOff/playOff",
+    "pages/doctorInfo/doctorInfo"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "旭日篮球",
+    "navigationBarTextStyle":"black"
+  }
+}

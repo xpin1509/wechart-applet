@@ -1,0 +1,139 @@
+<!--index.wxml-->
+<view class="wraper">
+	<!--view class="navBar">
+		<navigator class="navCells" url="/pages/index/index" hover-class="navigator-hover">首页</navigator>
+		<navigator class="navCells" url="/pages/doctorInfo/doctorInfo" hover-class="navigator-hover">医生认证</navigator>
+		<navigator class="navCells" url="/pages/news/news" hover-class="navigator-hover">优领新闻</navigator>
+		<navigator class="navCells" url="/pages/faq/faq" hover-class="navigator-hover">帮助中心</navigator>
+	</view-->
+	<view class="videoBar">
+		<video class="videoItem" objectFit="fill" src="{{videoUrl}}" controls  poster="resource/@2x_2.jpg"></video>	
+	</view>
+	<view class="product">
+		<view class="sectionTitle">产品功能</view>
+		<view class="product-cells">
+			<view class="product-cell digital-cell">
+				<view class="product-cell-img"></view>
+				<text>数字模型</text>
+			</view>
+			<view class="product-cell measure-cell">
+				<view class="product-cell-img"></view>
+				<text>测量分析</text>
+			</view>
+			<view class="product-cell simulate-cell">
+				<view class="product-cell-img"></view>
+				<text>3D模拟</text>
+			</view>
+			<view class="product-cell guide-cell">
+				<view class="product-cell-img"></view>
+				<text>专家指导</text>
+			</view>
+			<view class="product-cell manage-cell">
+				<view class="product-cell-img"></view>
+				<text>过程管理</text>
+			</view>
+			<view class="product-cell trains-cell">
+				<view class="product-cell-img"></view>
+				<text>专业培训</text>
+			</view>
+		</view>
+	</view>
+	<view class="feature">
+		<view class="sectionTitle">产品特色</view>
+		<view class="feature-cells clearfix">
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_11.jpg?t=1.0.1.jpg"></image>	
+				</view>
+				<view class="feature-abstract"><text>系统思维 </text><text>全面分析</text></view>
+			</view>
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_12.jpg?t=1.0.1.jpg"></image>
+				</view>
+				<view class="feature-abstract"><text>专业优选 </text><text>专家领航</text></view>
+			</view>
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_13.jpg?t=1.0.1.jpg"></image>	
+				</view>
+				<view class="feature-abstract"><text>系统思维 </text><text>全面分析</text></view>
+			</view>
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_14.jpg?t=1.0.1.jpg"></image>	
+				</view>
+				<view class="feature-abstract"><text>一站式操作 </text><text>贴心服务</text></view>
+			</view>
+		</view>
+	</view>
+	<view class="jion-us">
+		<view class="sectionTitle">加入我们</view>
+		<view class="technolog-process">
+			<view class="technolog-submit technolog-processes">
+                <view class="technolog-num">
+                    <i>01</i>
+                </view>
+                <view class="technolog-icon"></view>
+                <view class="technolog-abstract">
+                    	填写并提交认证资料
+                </view>
+            </view>
+            <view class="technolog-examine technolog-processes">
+                <view class="technolog-num">
+                    <i>02</i>
+                </view>
+                <view class="technolog-icon"></view>
+                <view class="technolog-abstract">
+                    	Ortholink优领审核资料
+                </view>
+            </view>
+            <view class="technolog-sucess technolog-processes">
+                <view class="technolog-num">
+                    <i>03</i>
+                </view>
+                <view class="technolog-icon"></view>
+                <view class="technolog-abstract">
+                    <view>审核成功</view>
+                    <view>发放Ortholink优领账号、密码</view>
+                </view>
+            </view>
+            <view class="technolog-login technolog-processes">
+                <view class="technolog-num">
+                    <i>04</i>
+                </view>
+                <view class="technolog-icon"></view>
+                <view class="technolog-abstract">
+                    <view>登录Ortholink优领客户端</view>
+                    <view>开启美妙的数字化正畸之旅</view>	
+                </view>
+            </view>
+		</view>
+		<navigator class="verfiry-btn blue-btn" url="/pages/doctorInfo/doctorInfo" hover-class="navigator-hover">开始认证</navigator>
+	</view>
+	
+	<view class="footer">
+		<view class="foot-info">
+			<view>电话：400-029-0009</view>
+			<view>工作时间：周一至周五 9:00-21:00</view>
+			<view>邮箱：ortholink@eetop.com</view>
+			<view>地址：杭州市西湖区天目山路327号合生国贸中心5幢8楼</view>
+		</view>
+		<view class="copy-right">杭州一牙数字口腔有限公司版权所有</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

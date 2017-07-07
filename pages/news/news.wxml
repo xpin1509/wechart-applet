@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="navBar">
+		<!--navigator class="navCells" url="/pages/news/news" hover-class="navigator-hover">新闻</navigator-->
+		<navigator class="navCells" url="/pages/matches/matches" hover-class="navigator-hover">比赛</navigator>
+		<navigator class="navCells" url="/pages/data/data" hover-class="navigator-hover">数据</navigator>
+		<navigator class="navCells" url="/pages/playOff/playOff" hover-class="navigator-hover">季后赛</navigator>
+		<navigator class="navCells" url="/pages/playOff/playOff" hover-class="navigator-hover">医生认证</navigator>
+</view>
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}">
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+    	<view class="swiperItem">
+    		<image class="slide-image" src="{{item.coverImage}}" />
+      		<text class="slide-text">{{item.title}}</text>
+    	</view>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="newsWraper">
+	<view wx:for="{{newsItems}}" wx:key="*this" wx:for-item="Item" class="newsItems">
+		<view class="newsItemsImgBox">
+			<image src="{{Item.coverImage}}" class="newsItemsImg"/>
+		</view>
+		<view class="newsItemsRight">
+			<view class="newsItemsTitle" bindtap="openDetails({{Item.url}})">{{Item.title}}
+			</view>
+			<view class="newsItemsTime">{{Item.playCount}}</view>
+		</view>
+	</view>
+</view>	

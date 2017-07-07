@@ -1,0 +1,25 @@
+<!--matches.wxml-->
+<view class="DayMatchBox" wx:for="{{matchList}}" wx:key="unique" wx:for-item="itemName">
+	<view class="DayTime">{{itemName.matchDate}}</view>
+	<view class="DayMatchCells" wx:for="{{itemName.matchList}}" wx:key="unique">
+		<view class="DayMatches">
+			<view class="DayTeam">
+				<view class="DayMatch">
+					<image src="{{item.leftBadge}}"></image>
+					<label>{{item.leftName}} </label> 
+					<span class="pull-right">{{item.leftGoal}}</span>
+				</view>
+				<view class="DayMatch">
+					<image src="{{item.rightBadge}}" ></image>	
+					<label>{{item.rightName}}</label> 
+					<span class="pull-right">{{item.rightGoal}}</span>
+				</view>
+			</view>
+			<view class="StartTime">
+				<view>{{item.quarter}}</view>
+				<view>{{item.quarterTime}}</view>
+			</view>
+		</view>
+		<view class="DayResult"><p>{{item.latestNews.title}}</p></view>
+	</view>
+</view>

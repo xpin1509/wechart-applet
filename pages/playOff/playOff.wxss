@@ -1,0 +1,52 @@
+.nationArea{
+	font-family:"Microsoft YaHei";
+}
+.title{
+	display:block;
+	width: 100%;
+    font-size: 28rpx;
+    text-align: left;
+    text-indent: 40rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    background-color: #EBF0F5;
+    color: #999;
+}
+.dataHead{
+	line-height: 68rpx;
+    font-size: 26rpx;
+    border-bottom: 1px solid #e5e5e5;
+    color: #999;
+    white-space: nowrap; 
+    display:-webkit-flex;
+    text-align:center
+}
+.teamCeil{
+	font-size: 26rpx;
+	line-height: 68rpx;
+	white-space: nowrap;
+	display:-webkit-flex;
+	text-align:center
+}
+.teamCeil image{
+	width:40rpx;
+	height:40rpx;
+	vertical-align: middle;
+}
+.num{
+	margin-left:60rpx
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

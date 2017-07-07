@@ -1,0 +1,32 @@
+.DayMatchBox{
+	font-size:16px;
+	color:#333;
+	font-family:"Microsoft YaHei";
+	line-height:28px;
+	padding: 10px 20px 0;
+}
+.DayMatchCells{
+	padding: 10px 0px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.DayMatches{
+	display:-webkit-flex;
+}
+.DayTeam{
+	flex:3;
+}
+.DayMatch image{
+	width:56rpx;
+	height:56rpx;
+	vertical-align: middle;
+}
+.StartTime{
+	flex:2;
+	text-align:center
+}
+.DayResult p{
+	display:block;
+	text-align:center;
+	font-size:28rpx;
+	color: #9E9E9E;
+}

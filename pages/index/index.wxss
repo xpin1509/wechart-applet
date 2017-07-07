@@ -1,0 +1,236 @@
+.navBar{
+	display:-webkit-flex;
+	display:flex;
+	text-align:center;
+	line-height: 80rpx;
+}
+.navCells{
+	-webkit-flex:1;
+	flex:1;
+}
+.videoItem{
+	display:block;
+	width:100%;
+	height:420rpx
+}
+.product{
+	margin-top:44rpx;
+	text-align:center;
+	font-weight:500
+}
+.product-cells{
+	height: 486rpx;
+    margin: 100rpx auto 0;
+    position: relative;
+    color: #333;
+    background-image: url('http://www.ortholink.cn/include/mt/images/index/@2x_5.png');
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.product-cell {
+    width: 108rpx;
+    height: 100rpx;
+    position: absolute;
+    font: 26rpx/32rpx "microsoft yahei";
+}
+.product-cell-img{
+	height: 68rpx;
+    background-image: url('http://www.ortholink.cn/include/mt/images/index/@2x_3.png');
+    background-size: 100%;
+}
+.digital-cell{
+	left: 50rpx;
+    top: 290rpx;
+}
+.measure-cell{
+    left: 50rpx;
+    top: 122rpx;
+}
+.measure-cell .product-cell-img{
+	background-position: center -76rpx;
+}
+.simulate-cell{
+	left: 160rpx;
+    top: 0rpx;
+}
+.simulate-cell .product-cell-img{
+    background-position: center -148rpx;
+}
+.guide-cell{
+	right: 160rpx;
+    top: 0rpx;
+}
+.guide-cell .product-cell-img{
+	background-position: center -222rpx;
+}
+.manage-cell{
+	right: 50rpx;
+    top: 122rpx;
+}
+.manage-cell .product-cell-img{
+	background-position: center -296rpx;
+}
+.trains-cell{
+	right: 50rpx;
+    top: 290rpx;
+}
+.trains-cell .product-cell-img{
+    background-position: center -374rpx;
+}
+.feature{
+	text-align: center;
+	font-family:"Microsoft YaHei";
+}
+.sectionTitle{
+	text-align:center;
+    font: 36rpx/68rpx "microsoft yahei";
+    color: #333333;
+}
+.sectionTitle:after{
+	display: block;
+    content: '';
+    width: 56rpx;
+    height: 6rpx;
+    margin: auto;
+    background-color: #1a89d9;
+}
+.feature .feature-cells {
+    padding:32rpx 12rpx;
+}
+.feature .feature-cell {
+    width: 340rpx;
+    margin: 4rpx 11.5rpx;
+    display: inline-block;
+    float: left;
+}
+.feature-img{
+	height: 240rpx;
+}
+.feature-img image{
+	width:100%;
+	height:100%
+}
+.feature .feature-cell .feature-abstract {
+    font-size: 30rpx;
+    line-height: 62rpx;
+    color: #6f6f6f;
+    text-align: center;
+}
+.technolog-process {
+    font-size: 30rpx;
+    color: #666;
+    position: relative;
+    font-family:"Microsoft YaHei";
+}
+.technolog-process:after {
+    content: '';
+    width: 1px;
+    background: #1a89d9;
+    height: 350rpx;
+    position: absolute;
+    left: 83rpx;
+    top: 60rpx;
+    z-index: 1;
+}
+.technolog-process .technolog-processes {
+    margin: 30rpx 24rpx;
+}
+.technolog-process .technolog-num {
+    width: 120rpx;
+    line-height: 90rpx;
+    float: left;
+    text-align: center;
+}
+.technolog-process i {
+    font-style: normal;
+    display: inline-block;
+    width: 60rpx;
+    line-height: 60rpx;
+    color: #1a89d9;
+    border: 1px solid #1a89d9;
+    border-radius: 50rpx;
+    background: #fff;
+    z-index: 10;
+    position: relative;
+}
+.technolog-process .technolog-icon {
+    float: left;
+    width: 86rpx;
+    height: 90rpx;
+    vertical-align: middle;
+    background-image: url("http://www.ortholink.cn/include/mt/images/index/@2x_8.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.technolog-process .technolog-submit .technolog-icon {
+    background-position: left 0;
+}
+.technolog-process .technolog-examine .technolog-icon {
+    background-position: left -105rpx;
+}
+.technolog-process .technolog-sucess .technolog-icon {
+    background-position: left -205rpx;
+}
+.technolog-process .technolog-login .technolog-icon {
+    background-position: left -300rpx;
+}
+
+.technolog-process .technolog-abstract {
+    display: inline-block;
+    line-height: 90rpx;
+    margin-left: 45rpx;
+}
+.technolog-process .technolog-abstract view{
+    line-height:  45rpx;
+}
+.verfiry-btn {
+    display: block;
+    width: 700rpx;
+    font-size:  36rpx;
+    line-height: 88rpx;
+    text-align: center;
+    margin: auto;
+    border-radius: 18rpx;
+    margin: 40rpx auto 80rpx;
+}
+.blue-btn {
+    background: #248bd6;
+    color: #fff;
+}
+.foot-info{
+	padding:20rpx 20rpx;
+	font-size:28rpx;
+	line-height:46rpx;
+	background:#dadada;
+	color:#666666;
+	font-family:"Microsoft YaHei";
+}
+.copy-right{
+	padding-top: 3 rpx;
+    padding-bottom: 3 rpx;
+    background-color: #4d4d4d;
+    color: #fff;
+    text-align: center;
+    font-size:24rpx;
+	line-height:46rpx;
+}
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+

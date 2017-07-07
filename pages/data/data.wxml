@@ -1,0 +1,20 @@
+<!--data.wxml-->
+<view class="nationArea" wx:for="{{dataList}}" wx:key="unique"> 
+	<p class="title">{{item.title}}</p>
+	<view class="dataHead"> 
+		<span wx:for="{{item.rank[0].head}}" wx:for-item="i" wx:key="unique" style="width:{{i.width}}%;display:block">{{i.desc}}</span>
+	</view>
+	<view class="teamCeil"  wx:for="{{item.rank[0].rows}}" wx:for-item="j" wx:key="unique">
+		<span style="width:40%;display:block;text-align:left;">
+			<span class="num">
+				{{j.config.serial}}
+				<image src="{{j.config.icon}}"></image>
+				{{j.config.name}}
+			</span>
+		</span>
+		<span style="width:15%;display:block">{{j.data.wins}}</span>
+		<span style="width:15%;display:block">{{j.data.losses}}</span>
+		<span style="width:15%;display:block">{{j.data.winingpercentage}}</span>
+		<span style="width:15%;display:block">{{j.data.gamesback}}</span>
+	</view>
+</view>

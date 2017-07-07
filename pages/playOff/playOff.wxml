@@ -1,0 +1,48 @@
+<!--playOff.wxml-->
+<view>决赛
+	<view>
+		<block wx:for="{{final.last}}">
+			<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+</view>
+
+<view>半决赛
+	<view>东部
+		<block wx:for="{{half.east}}">
+			<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+		
+	<view>西部
+		<block wx:for="{{half.west}}">
+				<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+</view>
+
+<view>第二轮</view>
+	<view>东部
+		<block wx:for="{{second.east}}">
+			<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+		
+	<view>西部
+		<block wx:for="{{second.west}}">
+				<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+<view>首轮
+	<view>东部
+		<block wx:for="{{first.east}}">
+			<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+		
+	<view>西部
+		<block wx:for="{{first.west}}">
+				<text>{{item.shortname1}}{{item.wincount1}}:{{item.shortname2}}{{item.wincount2}}</text>
+		</block>
+	</view>
+</view>

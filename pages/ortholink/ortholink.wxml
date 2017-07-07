@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="wraper">
+	<view class="navBar">
+		<navigator class="navCells" url="/pages/index/index" hover-class="navigator-hover">首页</navigator>
+		<navigator class="navCells" url="/pages/doctorInfo/doctorInfo" hover-class="navigator-hover">医生认证</navigator>
+		<navigator class="navCells" url="/pages/news/news" hover-class="navigator-hover">优领新闻</navigator>
+		<navigator class="navCells" url="/pages/faq/faq" hover-class="navigator-hover">帮助中心</navigator>
+	</view>
+	<view class="videoBar">
+		<video class="videoItem" objectFit="fill" src="{{videoUrl}}" controls  poster="{{posterUrl}}"></video>	
+	</view>
+	<view class="product">
+		<text class="sectionTitle">产品功能</text>
+		<view class="product-cells">
+			<view class="product-cell digital-cell">
+				<view class="product-cell-img"></view>
+				<text>数字模型</text>
+			</view>
+			<view class="product-cell measure-cell">
+				<view class="product-cell-img"></view>
+				<text>测量分析</text>
+			</view>
+			<view class="product-cell simulate-cell">
+				<view class="product-cell-img"></view>
+				<text>3D模拟</text>
+			</view>
+			<view class="product-cell guide-cell">
+				<view class="product-cell-img"></view>
+				<text>专家指导</text>
+			</view>
+			<view class="product-cell manage-cell">
+				<view class="product-cell-img"></view>
+				<text>过程管理</text>
+			</view>
+			<view class="product-cell trains-cell">
+				<view class="product-cell-img"></view>
+				<text>专业培训</text>
+			</view>
+		</view>
+	</view>
+	<view class="feature">
+		<text class="sectionTitle">产品特色</text>
+		<view class="feature-cells clearfix">
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_11.jpg?t=1.0.1.jpg"></image>	
+				</view>
+				<view><text>系统思维</text><text>全面分析</text></view>
+			</view>
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_12.jpg?t=1.0.1.jpg"></image>
+				</view>
+				<view><text>专业优选</text><text>专家领航</text></view>
+			</view>
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_13.jpg?t=1.0.1.jpg"></image>	
+				</view>
+				<view><text>系统思维</text><text>全面分析</text></view>
+			</view>
+			<view class="feature-cell">
+				<view class="feature-img">
+					<image src="http://www.ortholink.cn/include/mt/images/index/@2x_14.jpg?t=1.0.1.jpg"></image>	
+				</view>
+				<view><text>一站式操作 </text><text>贴心服务</text></view>
+			</view>
+		</view>
+	</view>
+	
+	
+	<view class="footer">
+	
+	</view>
+</view>
